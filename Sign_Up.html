@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+</head>
+<body>
+
+        <img src="C:\Users\USER\Documents\Hackcodecamp\images/logo.png">
+
+        <header>
+            <h2>
+                MentMe Blog
+            </h2>
+            </header>
+            
+            
+            <u>
+    <a href="Home">Home</a>
+    <a href="About">About</a>
+    <a href="FAQ">FAQ</a>
+    <a href="Login/Register">Login/Register</a>
+    <a href="Contact">Contact</a>
+     </u>
+
+     <hr>
+     <h2>
+         Sign Up
+     </h2>
+
+     <hr>
+
+     <h2>
+         Create an Account
+     </h2>
+     
+     <hr>
+        <form action="/mailinglist.php" method="POST">
+            <fieldset><legend>Personal Details</legend>
+                
+
+            <li><label for="firstname">Firstname:</label>
+                <input type="text" name="firstname” id="firstname" value="Your Firstname"> 
+            </li>
+
+            <br>
+
+            <li>
+                <label for="lastname">Lastname:</label>
+                <input type="text" name="lastname" id="lastname" value="Your Lastname">
+            </li>
+
+            <p>Gender</p>
+            <ul> 
+                <li> 
+                    <input type="radio" name="gender" value="Female"> Female
+                </li>
+
+                <li>
+                    <input type="radio" name="gender" value="Male"> Male
+                </li>
+            </ul>
+
+            <li>
+                <label>Date of Birth:</label>
+                <input type="text" name="date of birth" value="dd-----yyyy">
+            </li>
+            
+            <p> Select your interests</p>
+
+            <ul>
+              <li>
+                  <input type="checkbox" name="interest" value="Music">
+                  Music
+              </li>
+
+              <li>
+                    <input type="checkbox" name="interest" value="Comedy">
+                    Comedy
+                </li>
+
+                <li>
+                        <input type="checkbox" name="interest" value="Showbiz">
+                        Showbiz
+                    </li>
+
+                    <li>
+                            <input type="checkbox" name="interest" value="Education">
+                            Education
+                        </li>
+            </ul>
+            
+            <label>Age Range:
+                <select name="--Select Age--" value="--Select Age--">
+                    <option>--Select Age--</option>
+                    <option>1-10</option>
+                    <option>11-20</option>
+                    <option>21-30</option>
+                    <option>31-40</option>
+                    <option>41-50</option>
+                    <option>51-60</option>
+                    <option>61-70</option>
+                    <option>71-80</option>
+                    <option>81-90</option>
+                    <option>91-100</option>
+                </select>
+            </label>
+
+            <label>Select Favourite Movies</label>
+
+        </fieldset>
+        
+        
+
+    </form>
+
+    <fieldset><legend>Account Details</legend>
+
+        <li>
+            <label>
+                Upload Profile Picture
+               </label>
+              <p><input type="file" name="photo"></p>
+            </li>
+            <p>
+            <li><label for="Username">Username:</label>
+                <input type="text" name="Username" id="Username" value="Your Username"></li>
+            </p>
+
+            <p>
+                    <li><label for="Password">Password:</label>
+                        <input type="text" name="Password" id="Password" value="Your Password"></li>
+             </p>
+                
+                 <p>
+                    <li><label for="Retype Password">Password:</label>
+                  <input type="text" name="Retype Password" id="Retype Password" value="Retype Password"></li>
+             </p>
+
+                
+        <input type="submit" value="Submit">
+    
+            </fieldset>
+
+</body>
+</html>
